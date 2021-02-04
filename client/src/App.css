@@ -1,0 +1,47 @@
+.particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    height: 22px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #777;
+    background-color: transparent;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: rgb(235, 54, 54);
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .update {
+    margin-top: 5px;
+  }

@@ -1,0 +1,27 @@
+{
+  "name": "uob_webtech_cw",
+  "version": "1.0.0",
+  "description": "Repo for Web Technologies group project",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LewisGitting/UoB_WebTech_CW.git"
+  },
+  "author": "Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LewisGitting/UoB_WebTech_CW/issues"
+  },
+  "homepage": "https://github.com/LewisGitting/UoB_WebTech_CW#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "sqlite3": "^4.1.1"
+  }
+}
